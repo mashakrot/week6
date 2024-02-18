@@ -63,6 +63,12 @@ public class Vehicle {
                 return "Invalid result";
         }
     }          
+
+    public String move(Vehicle vehicle) {
+        // Car.drive();
+        return vehicle.type;
+    }
+
     
 }
 

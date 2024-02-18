@@ -20,6 +20,9 @@ public class App
     {
         Scanner sc = new Scanner(System.in);
         Vehicle newVehicle = null;
+        // Car car = null;
+        // Plane plane = null;
+        // Ship ship= null;
 
         boolean exit = true;
 
@@ -61,6 +64,16 @@ public class App
                         break;
                     case 2:
                         all.listVechicles();
+                        break;
+                    case 3:
+                        // car.drive();
+                        all.makeItMove();
+                        break;
+                    case 4:
+                        // plane.fly();
+                        break;
+                    case 5:
+                        // ship.sail();
                         break;
                     case 0:
                         System.out.println("Thank you for using the program.");

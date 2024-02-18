@@ -1,6 +1,8 @@
 package stuff;
 
 import java.util.ArrayList;
+import stuff.Car;
+
 
 public class All {
     // private String type;
@@ -26,6 +28,19 @@ public class All {
             System.out.println(vehicle.getTopSpeed());
             System.out.println("");
         }
+    }
+    
+    public void makeItMove() {
+        for (Vehicle vehicle: vehiclesList) {
+            if (vehicle instanceof Car) {
+                ((Car)vehicle).drive();
+            } else if (vehicle instanceof Plane) {
+                ((Plane)vehicle).fly();
+            } else if (vehicle instanceof Ship) {
+                ((Ship)vehicle).sail();
+            }
+        }
+
     }
 }
 
