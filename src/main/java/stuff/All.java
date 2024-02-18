@@ -34,13 +34,27 @@ public class All {
         for (Vehicle vehicle: vehiclesList) {
             if (vehicle instanceof Car) {
                 ((Car)vehicle).drive();
-            } else if (vehicle instanceof Plane) {
+            }
+        }
+    }
+
+    public void makeItFly() {
+        for (Vehicle vehicle: vehiclesList) {
+            if (vehicle instanceof Plane) {
                 ((Plane)vehicle).fly();
-            } else if (vehicle instanceof Ship) {
+            }
+        }
+    }
+
+    public void makeItSwim() {
+        for (Vehicle vehicle: vehiclesList) {
+            if (vehicle instanceof Ship) {
                 ((Ship)vehicle).sail();
             }
         }
-
     }
+
+
 }
+
 

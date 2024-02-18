@@ -69,10 +69,10 @@ public class App
                         all.makeItMove();
                         break;
                     case 4:
-                        all.makeItMove();
+                        all.makeItFly();
                         break;
                     case 5:
-                        all.makeItMove();
+                        all.makeItSwim();
                         break;
                     case 0:
                         System.out.println("Thank you for using the program.");
