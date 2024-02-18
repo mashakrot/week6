@@ -10,7 +10,7 @@ public class Engine {
     }
     
     public String getEnName() {
-        String nameEn = "Engine: " + name + " " + Integer.toString(power);
+        String nameEn = "Engine: " + name + " " + Integer.toString(power) + "kw";
         return nameEn;
     }
 }
