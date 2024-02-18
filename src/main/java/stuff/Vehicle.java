@@ -24,7 +24,7 @@ public class Vehicle {
     }
 
     public String getName() {
-        String name = type + ": " + manufacturer + " " + model;
+        String name = type + ": " + manufacturer + " " + model + "kw";
         return name;
     }
 
