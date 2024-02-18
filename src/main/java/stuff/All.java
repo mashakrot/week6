@@ -19,9 +19,12 @@ public class All {
     }
 
     public void listVechicles() {
-        int i = 0;
+        // int i = 0;
         for (Vehicle vehicle: vehiclesList) {
-            System.out.println(i++ + ": " + vehicle.getName());
+            System.out.println(vehicle.getName());
+            System.out.println(vehicle.printEngine(vehicle));
+            System.out.println(vehicle.getTopSpeed());
+            System.out.println("");
         }
     }
 }
