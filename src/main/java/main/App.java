@@ -66,14 +66,13 @@ public class App
                         all.listVechicles();
                         break;
                     case 3:
-                        // car.drive();
                         all.makeItMove();
                         break;
                     case 4:
-                        // plane.fly();
+                        all.makeItMove();
                         break;
                     case 5:
-                        // ship.sail();
+                        all.makeItMove();
                         break;
                     case 0:
                         System.out.println("Thank you for using the program.");
